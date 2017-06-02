@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlertOnboarding (1.9)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftTheme (0.3.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - AlertOnboarding
+  - SDWebImage
+  - SwiftTheme
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlertOnboarding: 0c97f5c4feac0a4e914bae5d530f66b4dbc6b771
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftTheme: 15ff615b8d2a84d24259611f136e1635c747cc77
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 52950e87e4eb80827e0040dc806556e500a8afde
+
+COCOAPODS: 1.1.1
