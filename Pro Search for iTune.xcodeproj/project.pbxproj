@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2FF88071C1F10427586650 /* Pods_Pro_Search_for_iTune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DBBE2681905D2F42A96EA6 /* Pods_Pro_Search_for_iTune.framework */; };
+		55525924F6FFBA6B2C6D316D /* Pods_Pro_Search_for_iTuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AD7CE2AB4B64EA0AC77D67 /* Pods_Pro_Search_for_iTuneUITests.framework */; };
+		CD1A5C57E272EC9E6C2B4D77 /* Pods_Pro_Search_for_iTuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752BD0F23792C846B3FDBE06 /* Pods_Pro_Search_for_iTuneTests.framework */; };
+		ED05E8661E5C54690068689F /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05E8651E5C54690068689F /* Setting.swift */; };
+		ED3DD5941E5A0B0400F32AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */; };
+		ED3DD5961E5A0B0400F32AAB /* MVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5951E5A0B0400F32AAB /* MVTableViewController.swift */; };
+		ED3DD5991E5A0B0400F32AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3DD5971E5A0B0400F32AAB /* Main.storyboard */; };
+		ED3DD59B1E5A0B0400F32AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3DD59A1E5A0B0400F32AAB /* Assets.xcassets */; };
+		ED3DD59E1E5A0B0400F32AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3DD59C1E5A0B0400F32AAB /* LaunchScreen.storyboard */; };
+		ED3DD5A91E5A0B0400F32AAB /* Pro_Search_for_iTuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5A81E5A0B0400F32AAB /* Pro_Search_for_iTuneTests.swift */; };
+		ED3DD5B41E5A0B0400F32AAB /* Pro_Search_for_iTuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5B31E5A0B0400F32AAB /* Pro_Search_for_iTuneUITests.swift */; };
+		ED3DD5C61E5A0B8900F32AAB /* MusicAndVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5C51E5A0B8900F32AAB /* MusicAndVideo.swift */; };
+		ED3DD5C81E5A186A00F32AAB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5C71E5A186A00F32AAB /* APIManager.swift */; };
+		ED3DD5CA1E5A4C4500F32AAB /* MVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5C91E5A4C4500F32AAB /* MVTableViewCell.swift */; };
+		ED9B4AA31E5B3C5D00CC85B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B4AA21E5B3C5D00CC85B0 /* Constants.swift */; };
+		ED9B4AA51E5B4D4700CC85B0 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B4AA41E5B4D4700CC85B0 /* MyButton.swift */; };
+		ED9B4AA71E5B879400CC85B0 /* myImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9B4AA61E5B879400CC85B0 /* myImageView.swift */; };
+		EDC089761E5B12AD00A1144C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC089751E5B12AD00A1144C /* DetailViewController.swift */; };
+		EDC089781E5B14FA00A1144C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC089771E5B14FA00A1144C /* DetailTableViewCell.swift */; };
+		EDDEB4861E5D8F1000134ED4 /* RateMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDEB4851E5D8F1000134ED4 /* RateMyApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3DD5A51E5A0B0400F32AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3DD5881E5A0B0300F32AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3DD58F1E5A0B0300F32AAB;
+			remoteInfo = "Pro Search for iTune";
+		};
+		ED3DD5B01E5A0B0400F32AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3DD5881E5A0B0300F32AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3DD58F1E5A0B0300F32AAB;
+			remoteInfo = "Pro Search for iTune";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AD7CE2AB4B64EA0AC77D67 /* Pods_Pro_Search_for_iTuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro_Search_for_iTuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DBBE2681905D2F42A96EA6 /* Pods_Pro_Search_for_iTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro_Search_for_iTune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C332F9324D12E9A06E0D87D /* Pods-Pro Search for iTune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTune.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTune/Pods-Pro Search for iTune.debug.xcconfig"; sourceTree = "<group>"; };
+		74D502DAC957EE0F419093E0 /* Pods-Pro Search for iTuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTuneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTuneUITests/Pods-Pro Search for iTuneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		752BD0F23792C846B3FDBE06 /* Pods_Pro_Search_for_iTuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro_Search_for_iTuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B805379333E873A537BCDA /* Pods-Pro Search for iTuneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTuneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTuneUITests/Pods-Pro Search for iTuneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96C25D9F24F6C71B690EA95F /* Pods-Pro Search for iTune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTune.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTune/Pods-Pro Search for iTune.release.xcconfig"; sourceTree = "<group>"; };
+		BF20B3AB96B88D52745826AA /* Pods-Pro Search for iTuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTuneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTuneTests/Pods-Pro Search for iTuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED05E8611E5C4E940068689F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		ED05E8621E5C4E940068689F /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		ED05E8631E5C4E940068689F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		ED05E8641E5C4E940068689F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ED05E8651E5C54690068689F /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		ED3DD5901E5A0B0300F32AAB /* Pro Search for iTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pro Search for iTune.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED3DD5951E5A0B0400F32AAB /* MVTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVTableViewController.swift; sourceTree = "<group>"; };
+		ED3DD5981E5A0B0400F32AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3DD59A1E5A0B0400F32AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3DD59D1E5A0B0400F32AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED3DD59F1E5A0B0400F32AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3DD5A41E5A0B0400F32AAB /* Pro Search for iTuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pro Search for iTuneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DD5A81E5A0B0400F32AAB /* Pro_Search_for_iTuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_Search_for_iTuneTests.swift; sourceTree = "<group>"; };
+		ED3DD5AA1E5A0B0400F32AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3DD5AF1E5A0B0400F32AAB /* Pro Search for iTuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pro Search for iTuneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3DD5B31E5A0B0400F32AAB /* Pro_Search_for_iTuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_Search_for_iTuneUITests.swift; sourceTree = "<group>"; };
+		ED3DD5B51E5A0B0400F32AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3DD5C51E5A0B8900F32AAB /* MusicAndVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicAndVideo.swift; sourceTree = "<group>"; };
+		ED3DD5C71E5A186A00F32AAB /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		ED3DD5C91E5A4C4500F32AAB /* MVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVTableViewCell.swift; sourceTree = "<group>"; };
+		ED9B4AA21E5B3C5D00CC85B0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED9B4AA41E5B4D4700CC85B0 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		ED9B4AA61E5B879400CC85B0 /* myImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myImageView.swift; sourceTree = "<group>"; };
+		EDC089751E5B12AD00A1144C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EDC089771E5B14FA00A1144C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		EDDEB4851E5D8F1000134ED4 /* RateMyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateMyApp.swift; sourceTree = "<group>"; };
+		EF9304B99323FA2537E832EA /* Pods-Pro Search for iTuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro Search for iTuneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pro Search for iTuneTests/Pods-Pro Search for iTuneTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3DD58D1E5A0B0300F32AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2FF88071C1F10427586650 /* Pods_Pro_Search_for_iTune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5A11E5A0B0400F32AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1A5C57E272EC9E6C2B4D77 /* Pods_Pro_Search_for_iTuneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5AC1E5A0B0400F32AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55525924F6FFBA6B2C6D316D /* Pods_Pro_Search_for_iTuneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E524C3722E2ACEC27A49EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C332F9324D12E9A06E0D87D /* Pods-Pro Search for iTune.debug.xcconfig */,
+				96C25D9F24F6C71B690EA95F /* Pods-Pro Search for iTune.release.xcconfig */,
+				EF9304B99323FA2537E832EA /* Pods-Pro Search for iTuneTests.debug.xcconfig */,
+				BF20B3AB96B88D52745826AA /* Pods-Pro Search for iTuneTests.release.xcconfig */,
+				81B805379333E873A537BCDA /* Pods-Pro Search for iTuneUITests.debug.xcconfig */,
+				74D502DAC957EE0F419093E0 /* Pods-Pro Search for iTuneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF95444E2922AE05A4B39B37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DBBE2681905D2F42A96EA6 /* Pods_Pro_Search_for_iTune.framework */,
+				752BD0F23792C846B3FDBE06 /* Pods_Pro_Search_for_iTuneTests.framework */,
+				19AD7CE2AB4B64EA0AC77D67 /* Pods_Pro_Search_for_iTuneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED05E8601E5C4E820068689F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ED05E8611E5C4E940068689F /* Nunito-Bold.ttf */,
+				ED05E8621E5C4E940068689F /* Nunito-Light.ttf */,
+				ED05E8631E5C4E940068689F /* Nunito-Regular.ttf */,
+				ED05E8641E5C4E940068689F /* OpenSans-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		ED3DD5871E5A0B0300F32AAB = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5921E5A0B0300F32AAB /* Pro Search for iTune */,
+				ED3DD5A71E5A0B0400F32AAB /* Pro Search for iTuneTests */,
+				ED3DD5B21E5A0B0400F32AAB /* Pro Search for iTuneUITests */,
+				ED3DD5911E5A0B0300F32AAB /* Products */,
+				03E524C3722E2ACEC27A49EA /* Pods */,
+				DF95444E2922AE05A4B39B37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3DD5911E5A0B0300F32AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5901E5A0B0300F32AAB /* Pro Search for iTune.app */,
+				ED3DD5A41E5A0B0400F32AAB /* Pro Search for iTuneTests.xctest */,
+				ED3DD5AF1E5A0B0400F32AAB /* Pro Search for iTuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3DD5921E5A0B0300F32AAB /* Pro Search for iTune */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5C11E5A0B1D00F32AAB /* Supporting Files */,
+				ED3DD5C41E5A0B4F00F32AAB /* Model */,
+				ED3DD5C31E5A0B4600F32AAB /* Controller */,
+				ED3DD5C21E5A0B2900F32AAB /* View */,
+			);
+			path = "Pro Search for iTune";
+			sourceTree = "<group>";
+		};
+		ED3DD5A71E5A0B0400F32AAB /* Pro Search for iTuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5A81E5A0B0400F32AAB /* Pro_Search_for_iTuneTests.swift */,
+				ED3DD5AA1E5A0B0400F32AAB /* Info.plist */,
+			);
+			path = "Pro Search for iTuneTests";
+			sourceTree = "<group>";
+		};
+		ED3DD5B21E5A0B0400F32AAB /* Pro Search for iTuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5B31E5A0B0400F32AAB /* Pro_Search_for_iTuneUITests.swift */,
+				ED3DD5B51E5A0B0400F32AAB /* Info.plist */,
+			);
+			path = "Pro Search for iTuneUITests";
+			sourceTree = "<group>";
+		};
+		ED3DD5C11E5A0B1D00F32AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED05E8601E5C4E820068689F /* Font */,
+				EDDEB4851E5D8F1000134ED4 /* RateMyApp.swift */,
+				ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */,
+				ED9B4AA21E5B3C5D00CC85B0 /* Constants.swift */,
+				ED3DD59A1E5A0B0400F32AAB /* Assets.xcassets */,
+				ED3DD59F1E5A0B0400F32AAB /* Info.plist */,
+				ED9B4AA41E5B4D4700CC85B0 /* MyButton.swift */,
+				ED9B4AA61E5B879400CC85B0 /* myImageView.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3DD5C21E5A0B2900F32AAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5971E5A0B0400F32AAB /* Main.storyboard */,
+				ED3DD59C1E5A0B0400F32AAB /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ED3DD5C31E5A0B4600F32AAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5951E5A0B0400F32AAB /* MVTableViewController.swift */,
+				ED3DD5C91E5A4C4500F32AAB /* MVTableViewCell.swift */,
+				EDC089751E5B12AD00A1144C /* DetailViewController.swift */,
+				EDC089771E5B14FA00A1144C /* DetailTableViewCell.swift */,
+				ED05E8651E5C54690068689F /* Setting.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ED3DD5C41E5A0B4F00F32AAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DD5C51E5A0B8900F32AAB /* MusicAndVideo.swift */,
+				ED3DD5C71E5A186A00F32AAB /* APIManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3DD58F1E5A0B0300F32AAB /* Pro Search for iTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3DD5B81E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTune" */;
+			buildPhases = (
+				6883616CB95BCDAF21FBBB26 /* [CP] Check Pods Manifest.lock */,
+				ED3DD58C1E5A0B0300F32AAB /* Sources */,
+				ED3DD58D1E5A0B0300F32AAB /* Frameworks */,
+				ED3DD58E1E5A0B0300F32AAB /* Resources */,
+				04B5AB7BC6D46302651C51B6 /* [CP] Embed Pods Frameworks */,
+				EC6DD8D2311BB0E5E0263941 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pro Search for iTune";
+			productName = "Pro Search for iTune";
+			productReference = ED3DD5901E5A0B0300F32AAB /* Pro Search for iTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3DD5A31E5A0B0400F32AAB /* Pro Search for iTuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3DD5BB1E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTuneTests" */;
+			buildPhases = (
+				E35E77A5B20563979AD28399 /* [CP] Check Pods Manifest.lock */,
+				ED3DD5A01E5A0B0400F32AAB /* Sources */,
+				ED3DD5A11E5A0B0400F32AAB /* Frameworks */,
+				ED3DD5A21E5A0B0400F32AAB /* Resources */,
+				0A3C8FF10D7A9287B304F2E3 /* [CP] Embed Pods Frameworks */,
+				A92B867F8143DE02813FA3FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3DD5A61E5A0B0400F32AAB /* PBXTargetDependency */,
+			);
+			name = "Pro Search for iTuneTests";
+			productName = "Pro Search for iTuneTests";
+			productReference = ED3DD5A41E5A0B0400F32AAB /* Pro Search for iTuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3DD5AE1E5A0B0400F32AAB /* Pro Search for iTuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3DD5BE1E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTuneUITests" */;
+			buildPhases = (
+				0EEB99A378DEB58E8488CDAD /* [CP] Check Pods Manifest.lock */,
+				ED3DD5AB1E5A0B0400F32AAB /* Sources */,
+				ED3DD5AC1E5A0B0400F32AAB /* Frameworks */,
+				ED3DD5AD1E5A0B0400F32AAB /* Resources */,
+				4C7DE73BC772ED4A993C30D1 /* [CP] Embed Pods Frameworks */,
+				F99CF53A115CC6D13CB06700 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3DD5B11E5A0B0400F32AAB /* PBXTargetDependency */,
+			);
+			name = "Pro Search for iTuneUITests";
+			productName = "Pro Search for iTuneUITests";
+			productReference = ED3DD5AF1E5A0B0400F32AAB /* Pro Search for iTuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3DD5881E5A0B0300F32AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = weza;
+				TargetAttributes = {
+					ED3DD58F1E5A0B0300F32AAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+					};
+					ED3DD5A31E5A0B0400F32AAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED3DD58F1E5A0B0300F32AAB;
+					};
+					ED3DD5AE1E5A0B0400F32AAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5A2E3RMNX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED3DD58F1E5A0B0300F32AAB;
+					};
+				};
+			};
+			buildConfigurationList = ED3DD58B1E5A0B0300F32AAB /* Build configuration list for PBXProject "Pro Search for iTune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3DD5871E5A0B0300F32AAB;
+			productRefGroup = ED3DD5911E5A0B0300F32AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3DD58F1E5A0B0300F32AAB /* Pro Search for iTune */,
+				ED3DD5A31E5A0B0400F32AAB /* Pro Search for iTuneTests */,
+				ED3DD5AE1E5A0B0400F32AAB /* Pro Search for iTuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3DD58E1E5A0B0300F32AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DD59E1E5A0B0400F32AAB /* LaunchScreen.storyboard in Resources */,
+				ED3DD59B1E5A0B0400F32AAB /* Assets.xcassets in Resources */,
+				ED3DD5991E5A0B0400F32AAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5A21E5A0B0400F32AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5AD1E5A0B0400F32AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B5AB7BC6D46302651C51B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTune/Pods-Pro Search for iTune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A3C8FF10D7A9287B304F2E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTuneTests/Pods-Pro Search for iTuneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EEB99A378DEB58E8488CDAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C7DE73BC772ED4A993C30D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTuneUITests/Pods-Pro Search for iTuneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6883616CB95BCDAF21FBBB26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A92B867F8143DE02813FA3FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTuneTests/Pods-Pro Search for iTuneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35E77A5B20563979AD28399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6DD8D2311BB0E5E0263941 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTune/Pods-Pro Search for iTune-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99CF53A115CC6D13CB06700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pro Search for iTuneUITests/Pods-Pro Search for iTuneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3DD58C1E5A0B0300F32AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9B4AA71E5B879400CC85B0 /* myImageView.swift in Sources */,
+				EDDEB4861E5D8F1000134ED4 /* RateMyApp.swift in Sources */,
+				ED3DD5C81E5A186A00F32AAB /* APIManager.swift in Sources */,
+				ED3DD5C61E5A0B8900F32AAB /* MusicAndVideo.swift in Sources */,
+				EDC089781E5B14FA00A1144C /* DetailTableViewCell.swift in Sources */,
+				ED3DD5961E5A0B0400F32AAB /* MVTableViewController.swift in Sources */,
+				ED05E8661E5C54690068689F /* Setting.swift in Sources */,
+				EDC089761E5B12AD00A1144C /* DetailViewController.swift in Sources */,
+				ED9B4AA51E5B4D4700CC85B0 /* MyButton.swift in Sources */,
+				ED3DD5941E5A0B0400F32AAB /* AppDelegate.swift in Sources */,
+				ED3DD5CA1E5A4C4500F32AAB /* MVTableViewCell.swift in Sources */,
+				ED9B4AA31E5B3C5D00CC85B0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5A01E5A0B0400F32AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DD5A91E5A0B0400F32AAB /* Pro_Search_for_iTuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3DD5AB1E5A0B0400F32AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3DD5B41E5A0B0400F32AAB /* Pro_Search_for_iTuneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3DD5A61E5A0B0400F32AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3DD58F1E5A0B0300F32AAB /* Pro Search for iTune */;
+			targetProxy = ED3DD5A51E5A0B0400F32AAB /* PBXContainerItemProxy */;
+		};
+		ED3DD5B11E5A0B0400F32AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3DD58F1E5A0B0300F32AAB /* Pro Search for iTune */;
+			targetProxy = ED3DD5B01E5A0B0400F32AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3DD5971E5A0B0400F32AAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3DD5981E5A0B0400F32AAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3DD59C1E5A0B0400F32AAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3DD59D1E5A0B0400F32AAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3DD5B61E5A0B0400F32AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3DD5B71E5A0B0400F32AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3DD5B91E5A0B0400F32AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C332F9324D12E9A06E0D87D /* Pods-Pro Search for iTune.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTune/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED3DD5BA1E5A0B0400F32AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C25D9F24F6C71B690EA95F /* Pods-Pro Search for iTune.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTune/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED3DD5BC1E5A0B0400F32AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9304B99323FA2537E832EA /* Pods-Pro Search for iTuneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTuneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pro Search for iTune.app/Pro Search for iTune";
+			};
+			name = Debug;
+		};
+		ED3DD5BD1E5A0B0400F32AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF20B3AB96B88D52745826AA /* Pods-Pro Search for iTuneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTuneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pro Search for iTune.app/Pro Search for iTune";
+			};
+			name = Release;
+		};
+		ED3DD5BF1E5A0B0400F32AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B805379333E873A537BCDA /* Pods-Pro Search for iTuneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTuneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pro Search for iTune";
+			};
+			name = Debug;
+		};
+		ED3DD5C01E5A0B0400F32AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D502DAC957EE0F419093E0 /* Pods-Pro Search for iTuneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = "Pro Search for iTuneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weza.Pro-Search-for-iTuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pro Search for iTune";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3DD58B1E5A0B0300F32AAB /* Build configuration list for PBXProject "Pro Search for iTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DD5B61E5A0B0400F32AAB /* Debug */,
+				ED3DD5B71E5A0B0400F32AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3DD5B81E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DD5B91E5A0B0400F32AAB /* Debug */,
+				ED3DD5BA1E5A0B0400F32AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3DD5BB1E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DD5BC1E5A0B0400F32AAB /* Debug */,
+				ED3DD5BD1E5A0B0400F32AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3DD5BE1E5A0B0400F32AAB /* Build configuration list for PBXNativeTarget "Pro Search for iTuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3DD5BF1E5A0B0400F32AAB /* Debug */,
+				ED3DD5C01E5A0B0400F32AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3DD5881E5A0B0300F32AAB /* Project object */;
+}
