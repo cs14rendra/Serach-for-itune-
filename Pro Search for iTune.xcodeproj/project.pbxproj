@@ -11,6 +11,7 @@
 		55525924F6FFBA6B2C6D316D /* Pods_Pro_Search_for_iTuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AD7CE2AB4B64EA0AC77D67 /* Pods_Pro_Search_for_iTuneUITests.framework */; };
 		CD1A5C57E272EC9E6C2B4D77 /* Pods_Pro_Search_for_iTuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752BD0F23792C846B3FDBE06 /* Pods_Pro_Search_for_iTuneTests.framework */; };
 		ED05E8661E5C54690068689F /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05E8651E5C54690068689F /* Setting.swift */; };
+		ED2D31531F016E0F00DCB9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D31521F016E0F00DCB9E0 /* ViewController.swift */; };
 		ED3DD5941E5A0B0400F32AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */; };
 		ED3DD5961E5A0B0400F32AAB /* MVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DD5951E5A0B0400F32AAB /* MVTableViewController.swift */; };
 		ED3DD5991E5A0B0400F32AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3DD5971E5A0B0400F32AAB /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		ED05E8631E5C4E940068689F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		ED05E8641E5C4E940068689F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		ED05E8651E5C54690068689F /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		ED2D31521F016E0F00DCB9E0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED3DD5901E5A0B0300F32AAB /* Pro Search for iTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pro Search for iTune.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED3DD5951E5A0B0400F32AAB /* MVTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVTableViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				ED05E8601E5C4E820068689F /* Font */,
 				EDDEB4851E5D8F1000134ED4 /* RateMyApp.swift */,
+				ED2D31521F016E0F00DCB9E0 /* ViewController.swift */,
 				ED3DD5931E5A0B0400F32AAB /* AppDelegate.swift */,
 				ED9B4AA21E5B3C5D00CC85B0 /* Constants.swift */,
 				ED3DD59A1E5A0B0400F32AAB /* Assets.xcassets */,
@@ -535,6 +538,7 @@
 				ED3DD5961E5A0B0400F32AAB /* MVTableViewController.swift in Sources */,
 				ED05E8661E5C54690068689F /* Setting.swift in Sources */,
 				EDC089761E5B12AD00A1144C /* DetailViewController.swift in Sources */,
+				ED2D31531F016E0F00DCB9E0 /* ViewController.swift in Sources */,
 				ED9B4AA51E5B4D4700CC85B0 /* MyButton.swift in Sources */,
 				ED3DD5941E5A0B0400F32AAB /* AppDelegate.swift in Sources */,
 				ED3DD5CA1E5A4C4500F32AAB /* MVTableViewCell.swift in Sources */,
